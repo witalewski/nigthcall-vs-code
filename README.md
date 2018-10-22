@@ -1,5 +1,7 @@
 # 🌃 Nightcall (VS Code)
 
+[![Build Status](https://travis-ci.org/witalewski/nigthcall-vs-code.svg?branch=master)](https://travis-ci.org/witalewski/nigthcall-vs-code)
+
 Automatically toggle between light and dark color theme.
 
 ## Features
