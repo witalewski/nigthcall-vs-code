@@ -8,4 +8,8 @@ install:
   - npm run vscode:prepublish
 
 script:
-  - npm test --silent
+  - npm test
+
+language: node_js
+node_js:
+  - "node"
