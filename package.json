@@ -2,7 +2,7 @@
   "name": "nightcall-vs-code",
   "displayName": "Nightcall (VS Code)",
   "description": "Automatically switch between light and dark theme using Nightcall",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "publisher": "witalewski",
   "author": {
     "name": "Kris Witalewski",
