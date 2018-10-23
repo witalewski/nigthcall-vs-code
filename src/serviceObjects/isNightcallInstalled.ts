@@ -1,9 +1,9 @@
-import { homedir } from "os";
-import { access, constants } from "fs";
+import * as os from "os";
+import * as fs from "fs";
 
 export function isNightcallInstalled():Promise<boolean> {
   return new Promise((resolve) => {
-    access(`${homedir()}/.nightcall`, constants.F_OK, err => {
+    fs.access(`${os.homedir()}/.nightcall`, fs.constants.F_OK, err => {
       if (err) {
         resolve(false);
       } else {
