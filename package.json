@@ -22,11 +22,11 @@
     "commands": [
       {
         "command": "nightcall.switchToNightTheme",
-        "title": "Nightcall: Switch to night theme"
+        "title": "🌃 Switch to night theme"
       },
       {
         "command": "nightcall.switchToDayTheme",
-        "title": "Nightcall: Switch to day theme"
+        "title": "🏙 Switch to day theme"
       }
     ],
     "configuration": {
