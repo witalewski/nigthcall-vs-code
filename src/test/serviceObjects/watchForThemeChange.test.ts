@@ -16,7 +16,7 @@ suite("watchForThemeChange", () => {
       .onThirdCall()
       .callsArgWith(2, null, "N");
     const fwWatchStub = sinon.stub(fs, "watch").callsFake((...args) => {
-      const callback: (...args: any) => void = args[2];
+      const callback: (args: any[]) => void = args[2];
       setTimeout(callback, 300);
       setTimeout(callback, 600);
     });
